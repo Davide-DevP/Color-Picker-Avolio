@@ -1,0 +1,9 @@
+.bgButton{
+    height:50px;
+    width: 50px;
+    cursor:pointer;
+}
+
+.buttons input{
+    margin-left: 7px;
+}

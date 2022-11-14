@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="buttons">
+        <input class="bgButton" style="background-color: #FE0202; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#FE0202');">
+        <input class="bgButton" style="background-color: #59BC98; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#59BC98');">
+        <input class="bgButton" style="background-color: #2594D2; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#2594D2');">
+        <input class="bgButton" style="background-color: #72BC59; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#72BC59');">
+        <input class="bgButton" style="background-color: #BC59A0; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#BC59A0');">
+        <input class="bgButton" style="background-color: #DCF63C; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#DCF63C');">
+    </div>
+</body>
+<script>
+    function changeBG(color){
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</html>
