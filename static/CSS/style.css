@@ -4,6 +4,10 @@
     cursor:pointer;
 }
 
+.buttons input{
+    margin-left: 7px;
+}
+
 body{
     font-family: 'Russo One', sans-serif;
     color: white;
