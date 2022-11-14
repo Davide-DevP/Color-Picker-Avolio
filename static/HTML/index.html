@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Picker</title>
+    <link rel="stylesheet" href="../CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -14,6 +15,12 @@
     <div>
         <h1>PICK A COLOR</h1>
         <h3>Scegli un colore per cambiare lo sfondo della pagina</h3>
+        <input class="bgButton" style="background-color: #FE0202; border: 2px solid black; border-radius: 8px;" type="button" value="" onclick="changeBG('#FE0202');">
     </div>
 </body>
+<script>
+    function changeBG(color){
+        document.body.style.backgroundColor = color;
+    }
+</script>
 </html>
