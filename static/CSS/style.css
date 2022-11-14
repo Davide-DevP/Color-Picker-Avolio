@@ -7,3 +7,14 @@
 .buttons input{
     margin-left: 7px;
 }
+
+body{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    background-color: #FF0000;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+}
