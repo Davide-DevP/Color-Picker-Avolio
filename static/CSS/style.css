@@ -4,11 +4,12 @@
     height:50px;
     width: 50px;
     cursor:pointer;
-    box-shadow: inset 0 0 0 4px #fff;
+    box-shadow: inset 0 0 0 3px #fff;
 }
 
 #bgButtonPressed{
-    border: 2px solid black; 
+    border: 2px solid black;
+    box-shadow: inset 0 0 0 3px #fff; 
     border-radius: 8px;
     height:50px;
     width: 50px;
